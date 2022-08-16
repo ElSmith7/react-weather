@@ -45,7 +45,7 @@ export default function Weather() {
             </div>
           </div>
         </form>
-        <header className="location-overveiw">
+        <header className="location-overview">
           <div className="row">
             <div className="col-6">
               <h1 className="city">{overviewWeatherData.city}</h1>
@@ -102,7 +102,11 @@ export default function Weather() {
         </section>
       </div>
       <footer className="footer">
-        <a href="https://github.com/ElSmith7/react-weather" target="_blank">
+        <a
+          href="https://github.com/ElSmith7/react-weather"
+          rel="noreferrer"
+          target="_blank"
+        >
           Open-source Code
         </a>
         by Eleanor Smith
