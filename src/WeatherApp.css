@@ -13,13 +13,14 @@ footer {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
+  max-width: 600px;
 }
 
 .weather-app {
   padding: 40px;
   margin: 20px auto;
   border-radius: 20px;
-  max-width: 600px;
+
   background: linear-gradient(
     225deg,
     rgba(101, 227, 241, 0.509) 10%,
