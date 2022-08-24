@@ -109,7 +109,14 @@ export default function Weather() {
         >
           Open-source Code
         </a>
-        by Eleanor Smith
+        <span> by </span>
+        <a
+          href="https://cute-quokka-d9c751.netlify.app"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Eleanor Smith
+        </a>
       </footer>
     </div>
   );
