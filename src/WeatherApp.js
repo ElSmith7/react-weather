@@ -33,6 +33,7 @@ export default function Weather(props) {
       icon: response.data.weather[0].icon,
       humidity: response.data.main.humidity,
       wind: Math.round(response.data.wind.speed * 3.6),
+      coordinates: response.data.coord,
     });
   }
 
