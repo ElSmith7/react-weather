@@ -111,3 +111,6 @@ footer {
   font-size: 18px;
   font-weight: 800;
 }
+#forecast-min {
+  opacity: 0.8;
+}

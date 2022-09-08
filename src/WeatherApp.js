@@ -14,7 +14,7 @@ export default function Weather(props) {
   }
 
   function search() {
-    const apiKey = `5c32603554bdbae2e57c8722d88e7625`;
+    let apiKey = `5c32603554bdbae2e57c8722d88e7625`;
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
   }
@@ -76,12 +76,12 @@ export default function Weather(props) {
             </div>
           </form>
           <WeatherInfo weatherData={weatherData} city={city} />
-          <WeatherForecast weatherData={weatherData} />
+          <WeatherForecast coordinates={weatherData.coordinates} />
         </div>
         <footer className="footer">
           <a
             href="https://github.com/ElSmith7/react-weather"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             Open-source Code
@@ -89,7 +89,7 @@ export default function Weather(props) {
           <span> by </span>
           <a
             href="https://cute-quokka-d9c751.netlify.app"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             Eleanor Smith
