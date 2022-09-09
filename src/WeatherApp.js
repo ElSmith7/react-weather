@@ -47,7 +47,7 @@ export default function Weather(props) {
             onSubmit={handleSubmit}
           >
             <div className="row">
-              <div className="col-8">
+              <div className="col-10">
                 <input
                   className="form-control shadow-sm"
                   id="country-input"
@@ -57,21 +57,12 @@ export default function Weather(props) {
                   onChange={handleCitySearch}
                 />
               </div>
-              <div className="col-2">
+              <div className="col">
                 <input
                   className="form-control shadow-sm submit"
                   type="submit"
                   value="🔍"
                 />
-              </div>
-              <div className="col-2">
-                <button
-                  type="button"
-                  className="btn btn-primary shadow-sm now-button"
-                  id="now-button"
-                >
-                  <span className="now-button-wrapper">Now</span>
-                </button>
               </div>
             </div>
           </form>
