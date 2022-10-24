@@ -22,9 +22,9 @@ footer {
   border-radius: 20px;
 
   background: linear-gradient(
-    225deg,
-    rgba(101, 227, 241, 0.509) 10%,
-    rgb(0, 172, 245) 100%
+    180deg,
+    rgba(199, 137, 205, 0.7) 55%,
+    rgb(152, 82, 210) 100%
   );
   color: white;
 }
@@ -76,6 +76,10 @@ footer {
   font-family: "Josefin Sans", sans-serif;
   color: white;
   font-weight: bold;
+}
+
+.unit a {
+  color: rgb(152, 82, 210);
 }
 .current-conditions {
   list-style: none;
