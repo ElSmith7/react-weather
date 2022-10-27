@@ -57,12 +57,10 @@ export default function Weather(props) {
                   onChange={handleCitySearch}
                 />
               </div>
-              <div className="col">
-                <input
-                  className="form-control shadow-sm submit"
-                  type="submit"
-                  value="🔍"
-                />
+              <div className="col-2">
+                <button class="shadow-sm submit" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
               </div>
             </div>
           </form>
