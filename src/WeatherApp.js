@@ -58,8 +58,8 @@ export default function Weather(props) {
                 />
               </div>
               <div className="col-2">
-                <button class="shadow-sm submit" type="submit">
-                  <i class="fa-solid fa-magnifying-glass"></i>
+                <button className="shadow-sm submit" type="submit">
+                  <i className="fa-solid fa-magnifying-glass"></i>
                 </button>
               </div>
             </div>

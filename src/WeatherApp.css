@@ -122,11 +122,12 @@ footer a {
 
   .city {
     margin-top: 15px;
-    font-size: 60px;
+    font-size: 40px;
+    line-height: normal;
   }
   .sub-heading {
     opacity: 0.8;
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .weather-icon {
@@ -134,7 +135,7 @@ footer a {
     text-align: center;
   }
   .current-temp {
-    font-size: 80px;
+    font-size: 60px;
     margin-top: -70px;
     padding-left: 20px;
   }
@@ -150,7 +151,7 @@ footer a {
     font-size: 10px;
   }
   .future-forecast {
-    margin-top: -5px;
+    margin-top: 10px;
   }
   .day-forecast {
     margin: 0;
@@ -167,7 +168,10 @@ footer a {
     padding: 4px 2px;
   }
   .city {
-    font-size: 45px;
+    font-size: 35px;
+  }
+  .sub-heading {
+    font-size: 8px;
   }
   .current-temp {
     margin-top: -40px;
